@@ -1,7 +1,7 @@
 ﻿namespace test1.Service;
 
 using test1.DTOs;
-using test1.Repositories;
+using test1.Repository;
 public class VendorService : IVendorService
 {
     private readonly IVendorRepository _vendorRepository;

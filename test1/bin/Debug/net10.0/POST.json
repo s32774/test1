@@ -1,0 +1,16 @@
+{
+   "code": "VEND000001",
+   "name": "Amazon Polska",
+   "products": [
+      {
+         "id": 1,
+         "amount": 100,
+         "pricePerUnit": 300.25
+      },
+      {
+         "id": 2,
+         "amount": 10,
+         "pricePerUnit": 120.00
+      }
+   ]
+}
