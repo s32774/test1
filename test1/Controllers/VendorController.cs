@@ -21,12 +21,10 @@ public class VendorsController : ControllerBase
     public async Task<IActionResult> GetVendor(string code)
     {
         var vendor = await _vendorService.GetVendorAsync(code);
-
         if (vendor is null)
         {
             return NotFound($"Vendor with code {code} was not found.");
         }
-
         return Ok(vendor);
     }
 
